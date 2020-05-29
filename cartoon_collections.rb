@@ -9,7 +9,8 @@ array.collect do |call|
   end
 end
 
-def long_planeteer_calls
+def long_planeteer_calls(array)
+    array.any? { |i| i.size > 4 }
 end
 
 def find_the_cheese# code an argument here
