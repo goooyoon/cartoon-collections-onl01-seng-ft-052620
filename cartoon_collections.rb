@@ -1,14 +1,8 @@
 def roll_call_dwarves(dwarves)
+  each_with_index { |dwarves, index|
+  roll_call_dwarves[dwarves] = index
  puts "#{index[0]}, #{dwarves}"
 end
-
-hash = Hash.new
-%w(cat dog wombat).each_with_index { |item, index|
-  hash[item] = index
-}
-hash   #=> {"cat"=>0, "dog"=>1, "wombat"=>2}
-
-
 
 def summon_captain_planet# code an argument here
   # Your code here
