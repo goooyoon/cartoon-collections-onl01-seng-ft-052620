@@ -5,6 +5,7 @@ end
 
 def summon_captain_planet
  
+ return 
 end
 
 names = ['danil', 'edmund']
