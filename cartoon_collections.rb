@@ -5,6 +5,8 @@ end
 
 def summon_captain_planet
  
+ result = summon_captain_planet(veggies)
+ 
  return 
 end
 
