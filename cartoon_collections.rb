@@ -6,18 +6,11 @@ end
 def summon_captain_planet
  
  result = summon_captain_planet(veggies)
+ result = summon_captain_planet(fruits)
  
+ names.map! {|names| names.capitalize }
  return 
 end
-
-names = ['danil', 'edmund']
-
-# here we map one array to another, convert each element by some rule
-names.map! {|name| name.capitalize } # now names contains ['Danil', 'Edmund']
-
-names.each { |name| puts name + ' is a programmer' } # here we just do s
-
-
 
 def long_planeteer_calls# code an argument here
   # Your code here
