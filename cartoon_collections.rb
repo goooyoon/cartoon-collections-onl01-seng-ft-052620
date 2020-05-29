@@ -3,13 +3,13 @@ def roll_call_dwarves(names)
   puts "#{index+1} #{name}"}
 end
 
-def summon_captain_planet
+def summon_captain_planet(names)
  
  result = summon_captain_planet(veggies)
  result = summon_captain_planet(fruits)
  
  names.map! {|names| names.capitalize }
- return 
+ return result
 end
 
 def long_planeteer_calls# code an argument here
